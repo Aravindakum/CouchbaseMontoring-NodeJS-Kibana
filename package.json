@@ -1,0 +1,19 @@
+{
+  "name": "cbmonitor-nodejs-app",
+  "version": "0.0.1",
+  "author": "Aravindakumar Venugopalan",
+   "scripts": {    
+    "start": "node cbmonitor.js",
+    "predeploy": "echo im about to deploy",
+    "postdeploy": "echo ive deployed"    
+  },
+  "dependencies": {
+    "couchbase": "2.0.10",
+    "elasticsearch": "5.0.0",
+	"throng":"1.0.0"
+  },
+  "engines": {
+    "node": "0.12.6",
+	"npm": "2.11.2"
+  }
+}

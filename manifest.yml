@@ -1,0 +1,4 @@
+---
+applications:
+- name: cbmonitor-nodejs-app2
+  command: node cbmonitor.js
